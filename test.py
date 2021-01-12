@@ -1,6 +1,7 @@
 import smbus
 import time
 import os
+import re
 
 # Config Register (R/W)
 _REG_CONFIG                 = 0x00
