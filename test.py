@@ -220,7 +220,7 @@ if __name__=='__main__':
         print("Current:       {:9.6f} A".format(current/1000))
         print("Power:         {:6.3f} W".format(power))
         print("Percent:       {:3.1f}%".format(p))
-        print("Signal:        " + signal + " dB")
+        print("Signal:        " + str(signal) + " dB")
         print("")
 
         time.sleep(5)
