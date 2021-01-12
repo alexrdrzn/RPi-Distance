@@ -218,7 +218,7 @@ if __name__=='__main__':
             #print("PSU Voltage:   {:6.3f} V".format(bus_voltage + shunt_voltage))
             #print("Shunt Voltage: {:9.6f} V".format(shunt_voltage))
             os.system("clear")
-            time.sleep(0.01)
+            time.sleep(0.005)
             print("Load Voltage:  {:6.3f} V".format(bus_voltage))
             print("Current:       {:9.6f} A".format(current/1000))
             print("Power:         {:6.3f} W".format(power))
@@ -226,6 +226,6 @@ if __name__=='__main__':
             print("Signal:        " + str(signal) + " dB")
             print("")
 
-            time.sleep(0.1)
+            time.sleep(0.016)
     except KeyboardInterrupt:
         print ("script finalizado")
